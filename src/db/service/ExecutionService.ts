@@ -156,8 +156,10 @@ export default class ExecutionService {
         enableCircularCheck: true,
       });
       this.repository.save(res);
+      return test;
     } catch (e) {
       log.error(e);
     }
+    return test;
   }
 }

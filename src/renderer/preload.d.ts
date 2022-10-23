@@ -53,7 +53,7 @@ declare global {
     };
     executions: {
       ipcRenderer: {
-        checkPassFail(test: ExecutionModelType): Promise<void>;
+        checkPassFail(test: ExecutionModelType): Promise<ExecutionModelType>;
       };
     };
   }
