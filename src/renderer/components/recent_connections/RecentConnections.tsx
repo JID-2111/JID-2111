@@ -70,7 +70,7 @@ const RecentConnections = () => {
       <div className="recent-wrapper">
         <h1>Recent Connections</h1>
         <div className="d-flex justify-content-center">
-          <Form>
+          <Form className="d-flex justify-content-center">
             <Table id="Recents-table">
               <thead>
                 <tr>
